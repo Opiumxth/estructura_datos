@@ -1,23 +1,19 @@
 # C / C++
-*.o     # Archivos objeto
-*.out   # Binarios explicitos
+*.o
+*.out
 
-# Ejecutables sin extensión: ignora todo en carpetas de lab
-# y excepciona explícitamente los archivos de código
-sem*/**/[!.]*
-
-# todo a continuación es excepción, es decir, se incluye
-# en el repositorio y no es ignorado
-!sem*/**/*.cpp
-!sem*/**/*.h
-!sem*/**/*.c
-!sem*/**/*.md
-!sem*/**/*.pdf
-!sem*/**/*.txt
-!sem*/**/*.xml
-!sem*/**/*.java
-!sem*/**/*.csv
-!sem*/**/*.xlsx
+# Ejecutables sin extension
+sem*/**/file01-actividad
+sem*/**/files01
+sem*/**/fibonacci
+sem*/**/fibonacci01
+sem*/**/metodoOrdenaVarios
+sem*/**/time0
+sem*/**/time1
+sem*/**/time2
+sem*/**/time3
+sem*/**/limitesAleatoriosCpp73
+sem*/**/tutorNumAlatoriosC
 
 # Java / NetBeans
 *.class
