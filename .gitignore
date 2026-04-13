@@ -1,0 +1,38 @@
+# C / C++
+*.o     # Archivos objeto
+*.out   # Binarios explicitos
+
+# Ejecutables sin extensión: ignora todo en carpetas de lab
+# y excepciona explícitamente los archivos de código
+sem*/**/[!.]*
+
+# todo a continuación es excepción, es decir, se incluye
+# en el repositorio y no es ignorado
+!sem*/**/*.cpp
+!sem*/**/*.h
+!sem*/**/*.c
+!sem*/**/*.md
+!sem*/**/*.pdf
+!sem*/**/*.txt
+!sem*/**/*.xml
+!sem*/**/*.java
+!sem*/**/*.csv
+!sem*/**/*.xlsx
+
+# Java / NetBeans
+*.class
+build/
+dist/
+nbproject/private/
+*.orig
+
+# Archivos temporales de Office
+~$*
+
+# Datos generados
+*.dat
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
