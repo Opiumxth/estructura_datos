@@ -1,0 +1,155 @@
+# depslib dependency file v1.0
+1774302211 source:d:\c2026\c2026-1\cursos\algoedatos\clasessemanales\s04 listasenlazadas\lablistas\listacompseparada\compilacionseparada\listacpp\listagenericacpp\compilacseparadacpp\compilacseparadacpp v2\proyectocpp\listaenlazadacpp\main.cpp
+	<iostream>
+	"Lista.h"
+	"Persona.h"
+
+1774804330 "
+
+1774301772 d:\c2026\c2026-1\cursos\algoedatos\clasessemanales\s04 listasenlazadas\lablistas\listacompseparada\compilacionseparada\listacpp\listagenericacpp\compilacseparadacpp\compilacseparadacpp v2\proyectocpp\listaenlazadacpp\lista.h
+	<fstream>
+	<vector>
+	"Nodo.h"
+	"Lista.cpp"
+
+1774803620 d:\c2026\c2026-1\cursos\algoedatos\clasessemanales\s04 listasenlazadas\lablistas\listacompseparada\compilacionseparada\listacpp\listagenericacpp\compilacseparadacpp\compilacseparadacpp v2\proyectocpp\listaenlazadacpp\nodo.h
+	<fstream>
+	"Nodo.cpp"
+
+1774803968 
+
+1774302071 d:\c2026\c2026-1\cursos\algoedatos\clasessemanales\s04 listasenlazadas\lablistas\listacompseparada\compilacionseparada\listacpp\listagenericacpp\compilacseparadacpp\compilacseparadacpp v2\proyectocpp\listaenlazadacpp\lista.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<String.h>
+	<fstream>
+	<vector>
+	"Lista.h"
+
+1774804189 d:\c2026\c2026-1\cursos\algoedatos\clasessemanales\s04 listasenlazadas\lablistas\listacompseparada\compilacionseparada\listacpp\listagenericacpp\compilacseparadacpp\compilacseparadacpp v2\proyectocpp\listaenlazadacpp\persona.h
+	<iostream>
+	<string>
+	<fstream>
+	"Persona.h"
+	"Persona.cpp"
+
+1774804189 pp"
+
+1774804330 d:\c2026\c2026-1\cursos\algoedatos\clasessemanales\s04 listasenlazadas\lablistas\listacompseparada\compilacionseparada\listacpp\listagenericacpp\compilacseparadacpp\compilacseparadacpp v2\proyectocpp\listaenlazadacpp\persona.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<String.h>
+	<fstream>
+	<sstream>
+	"Persona.h"
+
+1774803968 d:\c2026\c2026-1\cursos\algoedatos\clasessemanales\s04 listasenlazadas\lablistas\listacompseparada\compilacionseparada\listacpp\listagenericacpp\compilacseparadacpp\compilacseparadacpp v2\proyectocpp\listaenlazadacpp\nodo.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<String.h>
+	"Nodo.h"
+
+1774804895 source:/media/salinux/Datos2/C2026/C2026-1/cursos/algoEDatos/clasesSemanales/S04 ListasEnlazadas/labListas/listaCompSeparada/compilacionSeparada/listaCpp/listaGenericaCpp/compilacSeparadaCpp/compilacSeparadaCpp v2 ok/proyectoCpp/ListaEnlazadaCpp/main.cpp
+	<iostream>
+	"Lista.h"
+	"Persona.h"
+
+1774804648 /media/salinux/Datos2/C2026/C2026-1/cursos/algoEDatos/clasesSemanales/S04 ListasEnlazadas/labListas/listaCompSeparada/compilacionSeparada/listaCpp/listaGenericaCpp/compilacSeparadaCpp/compilacSeparadaCpp v2 ok/proyectoCpp/ListaEnlazadaCpp/Lista.h
+	<fstream>
+	<vector>
+	"Nodo.h"
+	"Lista.cpp"
+
+1774803620 /media/salinux/Datos2/C2026/C2026-1/cursos/algoEDatos/clasesSemanales/S04 ListasEnlazadas/labListas/listaCompSeparada/compilacionSeparada/listaCpp/listaGenericaCpp/compilacSeparadaCpp/compilacSeparadaCpp v2 ok/proyectoCpp/ListaEnlazadaCpp/Nodo.h
+	<fstream>
+	"Nodo.cpp"
+
+1774803968 /media/salinux/Datos2/C2026/C2026-1/cursos/algoEDatos/clasesSemanales/S04 ListasEnlazadas/labListas/listaCompSeparada/compilacionSeparada/listaCpp/listaGenericaCpp/compilacSeparadaCpp/compilacSeparadaCpp v2 ok/proyectoCpp/ListaEnlazadaCpp/Nodo.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<String.h>
+	"Nodo.h"
+
+1774805016 /media/salinux/Datos2/C2026/C2026-1/cursos/algoEDatos/clasesSemanales/S04 ListasEnlazadas/labListas/listaCompSeparada/compilacionSeparada/listaCpp/listaGenericaCpp/compilacSeparadaCpp/compilacSeparadaCpp v2 ok/proyectoCpp/ListaEnlazadaCpp/Lista.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<String.h>
+	<fstream>
+	<vector>
+	"Lista.h"
+
+1774804189 /media/salinux/Datos2/C2026/C2026-1/cursos/algoEDatos/clasesSemanales/S04 ListasEnlazadas/labListas/listaCompSeparada/compilacionSeparada/listaCpp/listaGenericaCpp/compilacSeparadaCpp/compilacSeparadaCpp v2 ok/proyectoCpp/ListaEnlazadaCpp/Persona.h
+	<iostream>
+	<string>
+	<fstream>
+	"Persona.h"
+	"Persona.cpp"
+
+1774804330 /media/salinux/Datos2/C2026/C2026-1/cursos/algoEDatos/clasesSemanales/S04 ListasEnlazadas/labListas/listaCompSeparada/compilacionSeparada/listaCpp/listaGenericaCpp/compilacSeparadaCpp/compilacSeparadaCpp v2 ok/proyectoCpp/ListaEnlazadaCpp/Persona.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<String.h>
+	<fstream>
+	<sstream>
+	"Persona.h"
+
+1777061727 source:/media/salinux/Datos2/C2026/C2026-1/cursos/algoEDatos/clasesSemanales/S05 ListasEnlazDobles/lab alu/listaGenerica/listaGenericaCpp/ListaEnlazGenerica v2/main.cpp
+	<iostream>
+	"Lista.h"
+	"Persona.h"
+
+1777057142 /media/salinux/Datos2/C2026/C2026-1/cursos/algoEDatos/clasesSemanales/S05 ListasEnlazDobles/lab alu/listaGenerica/listaGenericaCpp/ListaEnlazGenerica v2/Lista.h
+	<fstream>
+	<vector>
+	"Nodo.h"
+	"Lista.cpp"
+
+1774803620 /media/salinux/Datos2/C2026/C2026-1/cursos/algoEDatos/clasesSemanales/S05 ListasEnlazDobles/lab alu/listaGenerica/listaGenericaCpp/ListaEnlazGenerica v2/Nodo.h
+	<fstream>
+	"Nodo.cpp"
+
+1777057277 /media/salinux/Datos2/C2026/C2026-1/cursos/algoEDatos/clasesSemanales/S05 ListasEnlazDobles/lab alu/listaGenerica/listaGenericaCpp/ListaEnlazGenerica v2/Nodo.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Nodo.h"
+
+1777061939 /media/salinux/Datos2/C2026/C2026-1/cursos/algoEDatos/clasesSemanales/S05 ListasEnlazDobles/lab alu/listaGenerica/listaGenericaCpp/ListaEnlazGenerica v2/Lista.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<fstream>
+	<vector>
+	"Lista.h"
+
+1774804189 /media/salinux/Datos2/C2026/C2026-1/cursos/algoEDatos/clasesSemanales/S05 ListasEnlazDobles/lab alu/listaGenerica/listaGenericaCpp/ListaEnlazGenerica v2/Persona.h
+	<iostream>
+	<string>
+	<fstream>
+	"Persona.h"
+	"Persona.cpp"
+
+1777062318 /media/salinux/Datos2/C2026/C2026-1/cursos/algoEDatos/clasesSemanales/S05 ListasEnlazDobles/lab alu/listaGenerica/listaGenericaCpp/ListaEnlazGenerica v2/Persona.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<fstream>
+	<sstream>
+	<iomanip>
+	"Persona.h"
+
