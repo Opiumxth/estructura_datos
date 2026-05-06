@@ -125,3 +125,42 @@
 	<string.h>
 	"Persona.h"
 
+1774371892 source:/home/mathias/University/estructuras_datos/sem05/lab alu/listaGenerica/listaGenericaCpp/listaEnlazGenerica v3/main.cpp
+	<iostream>
+	<fstream>
+	"Lista.h"
+	"Persona.h"
+
+1777071063 /home/mathias/University/estructuras_datos/sem05/lab alu/listaGenerica/listaGenericaCpp/listaEnlazGenerica v3/Lista.h
+	<iostream>
+	"Nodo.h"
+	"Lista.cpp"
+
+1777070925 /home/mathias/University/estructuras_datos/sem05/lab alu/listaGenerica/listaGenericaCpp/listaEnlazGenerica v3/Nodo.h
+	"Nodo.cpp"
+
+1777070911 /home/mathias/University/estructuras_datos/sem05/lab alu/listaGenerica/listaGenericaCpp/listaEnlazGenerica v3/Nodo.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Nodo.h"
+
+1777071207 /home/mathias/University/estructuras_datos/sem05/lab alu/listaGenerica/listaGenericaCpp/listaEnlazGenerica v3/Lista.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<fstream>
+	"Lista.h"
+
+1777071381 /home/mathias/University/estructuras_datos/sem05/lab alu/listaGenerica/listaGenericaCpp/listaEnlazGenerica v3/Persona.h
+	"Persona.cpp"
+
+1777072572 /home/mathias/University/estructuras_datos/sem05/lab alu/listaGenerica/listaGenericaCpp/listaEnlazGenerica v3/Persona.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Persona.h"
+

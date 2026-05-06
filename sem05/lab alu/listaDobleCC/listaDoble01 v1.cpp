@@ -17,7 +17,6 @@
 #include <iostream>
 #include <stdio.h>
 #include <stdlib.h>
-#include <conio.h>
 
 using namespace std;
 struct NODO {
@@ -46,7 +45,7 @@ int main()
 
     //eliminarIni(&a);
     //mostrarLista(a);
-    insertarDespues(&a, 25, 3);
+    insertarDespues(&a, 25, 1);
     mostrarLista(a);
 
     system("pause");
