@@ -16,7 +16,6 @@
 #include <iostream>
 #include <stdio.h>
 #include <stdlib.h>
-#include <conio.h>
 #include <string.h>
 #include "Abb.h"
 
@@ -37,7 +36,6 @@ int main()
    system("color 1F");
    menu();
 
-   system("pause");
    return(0);
 }
 
