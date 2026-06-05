@@ -3,9 +3,9 @@
  * descripcion:
  *
  *
- * @author: APATERNO AMATERNO, Nombre
- * @date  : 26-05-2026
- " @version 1
+ * @author: FLORES HOYOS, Mathias Pavel Diego
+ * @date  : 03-06-2026
+ " @version 2
  */
 package paqAbbGenerico;
 
@@ -445,5 +445,28 @@ public class BinarySearchTree<T extends Comparable<T>> {
         if (nodo.getRight() != null) {
             mostrar(nodo.getRight());
         }
+    }
+
+    public static BinarySearchTree<Integer> datosDePrueba() {
+
+        BinarySearchTree<Integer> arbol = new BinarySearchTree<>();
+
+        Integer i1 = Integer.valueOf(50);
+        Integer i2 = Integer.valueOf(30);
+        Integer i3 = Integer.valueOf(70);
+        Integer i4 = Integer.valueOf(20);
+        Integer i5 = Integer.valueOf(40);
+        Integer i6 = Integer.valueOf(60);
+        Integer i7 = Integer.valueOf(80);
+
+        arbol.add(i1);
+        arbol.add(i2);
+        arbol.add(i3);
+        arbol.add(i4);
+        arbol.add(i5);
+        arbol.add(i6);
+        arbol.add(i7);
+
+        return arbol;
     }
 }

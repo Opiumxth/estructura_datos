@@ -21,9 +21,9 @@
  *
  *Cada vez que se haga un arbol dibujarlo de manera simple pero que se entienda
  * 
- * @author: FLORES HOYOS, Mathias
- * @date  : 28-05-2026 / Ultima fecha de modificacion
- " @version 1
+ * @author: FLORES HOYOS, Mathias Pavel Diego
+ * @date  : 03-06-2026
+ " @version 2
  */
 package paqAbbGenerico;
 
@@ -33,6 +33,11 @@ public class TBst {
 
         BinarySearchTree<Integer> arbol = new BinarySearchTree<>();
 
+        // Como los datos de prueba fueron cargados directamente en el main
+        // No se usa el metodo .datosDePrueba() pero si esta implementado
+        // en la clase BinarySearchTree.java
+        // BinarySearchTree<Integer> arbol = datosDePrueba();
+        
         Integer i1 = Integer.valueOf(50);
         Integer i2 = Integer.valueOf(30);
         Integer i3 = Integer.valueOf(70);
@@ -41,13 +46,14 @@ public class TBst {
         Integer i6 = Integer.valueOf(60);
         Integer i7 = Integer.valueOf(80);
 
-        arbol.add(i1);
-        arbol.add(i2);
-        arbol.add(i3);
-        arbol.add(i4);
-        arbol.add(i5);
-        arbol.add(i6);
-        arbol.add(i7);
+        arbol.add(i1); // add(T elemento)
+
+        arbol.add(arbol.getRoot(), i2);
+        arbol.add(arbol.getRoot(), i3);
+        arbol.add(arbol.getRoot(), i4);
+        arbol.add(arbol.getRoot(), i5);
+        arbol.add(arbol.getRoot(), i6);
+        arbol.add(arbol.getRoot(), i7);
 
         /*
                   50
@@ -59,6 +65,10 @@ public class TBst {
 
         System.out.println("Árbol construido:");
         arbol.mostrar(arbol.getRoot());
+        
+        System.out.printf("Preorden: ");
+        arbol.preorder(arbol.getRoot());
+        System.out.printf("\n");
 
         System.out.printf("Inorden: ");
         arbol.inorder(arbol.getRoot());
@@ -68,9 +78,17 @@ public class TBst {
         arbol.postorder(arbol.getRoot());
         System.out.printf("\n");
 
-        arbol.height(arbol.getRoot());
+        System.out.printf(
+            "Altura desde la raiz: %d\n",
+            arbol.height(arbol.getRoot())
+        );
 
         NodoArbolBinario<Integer> n = arbol.getRoot().getLeft();
-        arbol.height(n);
+
+        System.out.printf(
+            "Altura desde nodo %d: %d\n",
+            n.getElement(),
+            arbol.height(n)
+        );
     }
 }

@@ -3,9 +3,9 @@
  * descripcion: No desc
  *
  *
- * @author: APATERNO AMATERNO, Nombre
- * @date  : 28-05-2026
- " @version 1
+ * @author: FLORES HOYOS, Mathias Pavel Diego
+ * @date  : 03-06-2026
+ " @version 2
  */
 package paqAbbGenerico;
 

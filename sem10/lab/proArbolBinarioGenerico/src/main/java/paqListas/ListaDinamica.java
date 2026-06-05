@@ -5,8 +5,9 @@
 package paqListas;
 
 /**
- *
- * @author mathias
+ * @author: FLORES HOYOS, Mathias Pavel Diego
+ * @date  : 03-06-2026
+ " @version 2
  */
 public class ListaDinamica<T> {
     private Nodo<T> cabeza;
