@@ -1,0 +1,10 @@
+PC01 Arreglo y fila secuenciales
+(Pseudocodigo)
+
+1. Se tine un vector de registros de ALUMNO (codigo, nombre, vector de 10 practicar) se requiere determinar el promedio de practicas en un vector de registros ALUMPROM (codigo, nombre y promedio) para pas siguientes operacione, Se pide:
+1.1. Las estructuras prototipos de funcion y el programa principal con todas las llamadas de que hagan posible la solucion del problema.
+1.2. El subprograma y el subprograma auxiliar adecuado para pasar los promedios del vector de registros de Alumno a un vector de registros Alumnos _apro_ y promedios desaprobados a una fila secuencial de registros Alumnos _desa_.
+
+2. Se tiene un vector de registros de Alumnos (codigo, nombre y nota) se pide:
+2.1. Defina o declare la estructura adecuada, diseñe y especifique un subprogrma para mostrar a los alumnos con calificaciones mayores a una calificacion dada.
+2.2. Implemente en pseudocodigo el diseño y especificacion anterior numerando y mostrando cada uno de los alumnos, mostrando el promedio de calificaciones al final de la relacion para que los que cumplan esa condicion.
