@@ -116,7 +116,7 @@ struct NODO {
     TD valor;
     NODO* sgte;
 };
-
+```
 **Pseudocódigo — Crear lista e insertar al inicio:**
 ```
 ACCION crearLista(NODO cab)
@@ -256,8 +256,6 @@ void mostrar(NODO* cab) {
     }
     printf("}\n");
 }
-```
-
 // Liberar toda la lista
 void liberarLista(NODO** cab) {
     NODO* temp;
