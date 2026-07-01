@@ -52,7 +52,7 @@ void imprimirNodo(int index);
 void BFS(int matriz[NODOS][NODOS], int nodoInicio);
 void DFSRecursivo(int matriz[NODOS][NODOS], int nodoActual, int visitados[NODOS]);
 void DFS(int matriz[NODOS][NODOS], int nodoInicio);
-
+void mostrarGrafo(int matriz[NODOS][NODOS], int nver);
 
 int main()
 {
@@ -77,12 +77,14 @@ int main()
     };
 
     printf("=== GRAFO NO DIRIGIDO (Desde A) ===\n");
-    printf("Recorrido BFS: ");
+    mostrarGrafo(grafoNoDirigido, NODOS);
+    printf("\nRecorrido BFS: ");
     BFS(grafoNoDirigido, 0); // 0 representa el nodo 'A'
     printf("Recorrido DFS: ");
     DFS(grafoNoDirigido, 0);
 
     printf("\n=== GRAFO DIRIGIDO (Desde A) ===\n");
+    mostrarGrafo(grafoDirigido, NODOS);
     printf("Recorrido BFS: ");
     BFS(grafoDirigido, 0);
     printf("Recorrido DFS: ");
@@ -183,3 +185,25 @@ void DFS(int matriz[NODOS][NODOS], int nodoInicio)
     printf("\n");
 }
 
+void mostrarGrafo(int matriz[NODOS][NODOS], int nver)
+{
+    int i, j;
+    printf("Matriz de Adyacencia:\n");
+
+    // Mostrando el encabezado
+    printf("    "); // espacio para la otra dimension de elementos
+    for(i = 0; i < nver; i++){
+        printf("%4c", 'A' + i);
+    }
+    printf("\n");
+
+    // Mostramos los elementos
+    for(i = 0; i < nver ; i++){
+        printf("%4c", 'A' + i);
+        for(j = 0; j < nver ; j++){
+            printf("%4d", matriz[i][j]);
+        }
+        printf("\n");
+    }
+    printf("\n");
+}
