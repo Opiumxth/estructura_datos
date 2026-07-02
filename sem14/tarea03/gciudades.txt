@@ -1,0 +1,8 @@
+7
+Lima Cusco 5
+Lima Arequipa 10
+Cusco Arequipa 3
+Cusco Puno 8
+Arequipa Puno 2
+Arequipa Tacna 9
+Puno Tacna 4

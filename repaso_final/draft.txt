@@ -1,0 +1,23 @@
+MAX <- 10
+
+REGISTRO PILA
+    ENTERO tope
+    TD pila[MAX]
+FIN_REGISTRO
+
+ACCION crearPilar()
+    p.tope <- -1
+FIN_ACCION
+
+ACCION empilar(PILA p, TD dato)
+    ENTERO n
+    n <- p.tope + 1
+    SI (n < MAX)
+        p.pila[n] <- dato
+        p.tope <- dato
+    SINO
+        escribir("Pila llena...")
+    FIN_SIN
+FIN_ACCION
+
+ACCION depilar(PILA p, TD dato)
